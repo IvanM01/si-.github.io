@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff0f5; /* Rosa pastel */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff69b4; /* Rosa más intenso */
+    font-size: 2.5em;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff69b4; /* Rosa más intenso */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff1493; /* Rosa más oscuro */
+}
+
+.no-button {
+    background-color: #d3d3d3; /* Gris pastel */
+    color: #333;
+}
+
+.no-button:hover {
+    background-color: #c0c0c0; /* Gris un poco más oscuro */
+}

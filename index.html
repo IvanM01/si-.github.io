@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gif-container {
+            margin-top: 20px;
+        }
+        .gif-container img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be My Valentine?</h1>
+        <div class="gif-container">
+            <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHNoa3ptNjFtazZ3Znoxd25zdmp1dHY1b25odTdtbWZ0aTR2aGNsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rGwpwFOnDriFVT2dxq/giphy.gif" alt="Romantic GIF">
+        </div>
+        <div class="buttons">
+            <a href="si.html" class="button">Sí</a>
+            <a href="#" class="button no-button">No</a>
+        </div>
+    </div>
+
+    <script>
+        // Opcional: Puedes agregar un pequeño script para que el botón "No" se mueva
+        const noButton = document.querySelector('.no-button');
+        noButton.addEventListener('mouseover', () => {
+            noButton.style.position = 'absolute';
+            noButton.style.left = Math.random() * 80 + 'vw';
+            noButton.style.top = Math.random() * 80 + 'vh';
+        });
+    </script>
+</body>
+</html>

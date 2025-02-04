@@ -5,47 +5,64 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff0f5; /* Rosa pastel */
-    font-family: 'Arial', sans-serif;
+    background-color: #e6e6fa; /* Morado pastel */
+    font-family: 'Pacifico', cursive; /* Tipografía bonita */
 }
 
 .container {
     text-align: center;
     background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 h1 {
-    color: #ff69b4; /* Rosa más intenso */
-    font-size: 2.5em;
+    color: #9370db; /* Morado medio */
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.gif-container {
+    margin: 20px 0;
+}
+
+.gif-container img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .buttons {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espacio entre los botones */
 }
 
 .button {
     text-decoration: none;
-    color: white;
-    background-color: #ff69b4; /* Rosa más intenso */
-    padding: 10px 20px;
-    border-radius: 5px;
-    margin: 0 10px;
-    font-size: 1.2em;
-    transition: background-color 0.3s ease;
+    color: #333; /* Color de texto oscuro */
+    background-color: #fffacd; /* Amarillo pastel */
+    padding: 20px 40px; /* Tamaño del botón */
+    border-radius: 15px; /* Bordes redondeados */
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive; /* Tipografía bonita */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    border: 2px solid #ffd700; /* Borde dorado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
 }
 
 .button:hover {
-    background-color: #ff1493; /* Rosa más oscuro */
+    background-color: #ffd700; /* Amarillo más intenso al pasar el mouse */
+    transform: scale(1.05); /* Efecto de escala al pasar el mouse */
 }
 
 .no-button {
-    background-color: #d3d3d3; /* Gris pastel */
+    background-color: #fffacd; /* Amarillo pastel */
     color: #333;
 }
 
 .no-button:hover {
-    background-color: #c0c0c0; /* Gris un poco más oscuro */
+    background-color: #ffd700; /* Amarillo más intenso al pasar el mouse */
 }
